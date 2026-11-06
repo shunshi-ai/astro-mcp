@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shunshi-astro-mcp"
+version = "0.1.0"
+description = "Local astro calculation and reference tools for MCP clients — Shunshi.AI"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Shunshi.AI" }]
+dependencies = [
+    "mcp>=1.26,<2",
+    "pydantic>=2.11,<3",
+    "skyfield>=1.49,<2",
+    "timezonefinder>=6,<9",
+    "tzdata>=2024.1"
+]
+keywords = ["mcp", "mcp-server", "astro", "shunshi"]
+
+[project.scripts]
+shunshi-astro-mcp = "shunshi_astro_mcp.server:main"
+
+[project.urls]
+Homepage = "https://shunshi.ai"
+Repository = "https://github.com/shunshi-ai/astro-mcp"
+Issues = "https://github.com/shunshi-ai/astro-mcp/issues"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shunshi_astro_mcp", "packages/core/src/astrochart"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"

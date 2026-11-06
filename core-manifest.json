@@ -1,0 +1,13 @@
+{
+  "packages/core/src/astrochart/ephemeris.py": "81e243e660eacd93cb8da5c347497bbfd00dbfa8666f04ac5ed4d0741e6f88b1",
+  "packages/core/src/astrochart/timeline.py": "c853a966709f3e0d56dd188a30280898ed3c96464284f78a405c2afa6634ce8e",
+  "packages/core/src/astrochart/houses.py": "090df8ca838f00a08d9783a0035ea6cac0b59541a211554e8ba8bc7bbf90639c",
+  "packages/core/src/astrochart/constants.py": "119cd5e5d287c69d262347d00784779b25b30963eba48565422466c6506c5c0c",
+  "packages/core/src/astrochart/__init__.py": "53c56451898359d8cf4d5ab1f7f5bde1c91c53fe19c16599e92bdc961fd4311b",
+  "packages/core/src/astrochart/chart.py": "ba14ea7652de7e34322fb2f5887e011db9c49502c913e0786d5136dd0fefab95",
+  "packages/core/src/astrochart/transits.py": "1e824e36a39e6331f134b326a5690671d8ca3810ac6990f836cb10e7e0373cd2",
+  "packages/core/src/astrochart/timeconv.py": "fee0078d05203c87fc84f265b79a96a83f3ae8c0118c17fbf7c15416b2bf4eff",
+  "packages/core/src/astrochart/aspects.py": "5d469d074cb266cd679e87d66797982adb810606a7e776f357f760476d146aea",
+  "packages/core/src/astrochart/fixed_stars.py": "4a7cc886630578942d2392c1196cc0de293ec1b4630cd6e4541cff6206b47a89",
+  "packages/core/src/astrochart/synastry.py": "bf6ca8e19a04f1b2e7530d5ceb62d13566b0515ec9d4a1ed49cef122165bd9dd"
+}
